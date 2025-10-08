@@ -1,0 +1,6 @@
+async def async_setup_entry(hass, config_entry, async_add_entities):
+    ...
+    hass.async_create_task(
+        hass.config_entries.async_forward_entry_setup(config_entry, "sensor")
+    )
+    ...
