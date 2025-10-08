@@ -1,0 +1,12 @@
+{
+  "domain": "ultimate_ha_linky",
+  "name": "Ultimate HA Linky",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Cyril56/Ultimate-ha-linky",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@Cyril56"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "platforms": ["sensor"]
+}
